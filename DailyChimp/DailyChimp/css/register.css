@@ -1,0 +1,362 @@
+*{box-sizing: border-box; margin: 0 ; padding: 0;}
+.clr {clear: both;}
+
+
+
+
+
+
+/*-----NAV-BAR---*/
+
+#container {width: 100%; background: #fff;}
+.wrap { margin: 0 auto;width: 65%;}
+.hdr-top {margin: 0 auto; text-align: center; background: #fff;}
+
+.hdr-first {float: left; padding-left: 80px;}
+.hdr-first li {list-style: none;  display: inline-block; padding: 25px 0; color: #d5d5d5}
+.hdr-first a {text-decoration: none; padding:0 15px; color: #2a2a2a; font-family: OpenSans; font-size: 17px; font-weight: 600;}
+.hdr-first a:hover {color: #e42442}
+.hdr-first a:focus {color: #e42442}
+
+.hdr-sec {float: right;} 
+.hdr-sec li {list-style: none; display: inline-block; padding: 25px 0; color: #d5d5d5;}
+.hdr-sec a {text-decoration: none; padding: 0 13px;color: #2a2a2a;font-family: OpenSans;font-size: 17px; font-weight: 600;text-align-last: center; }
+.hdr-sec a:hover {color: #e42442}
+.hdr-sec a:focus {color: #e42442}
+
+
+
+/*------Search Bar---*/
+
+#container2 {width: 100%; background: #e41b37;}
+.wrap2 {margin: 0 auto;width: 65%; }
+
+.main-logo {position: relative; }
+.main-logo img {width: 120px;height: 80px; left: 5px; top: -34px;position: absolute;}
+
+.searchbar {padding: 13px 0 13px 0;}
+.searchbar input {
+    float: right; 
+    width: 336px; 
+    padding: 12px 20px 12px 50px;
+    height: 48px; 
+    background-image: url(../image/src-banana.png) ; 
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-radius: 3px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.searchbar input:hover {color:#dd1844; }
+.search {float: right; padding-top: 15px; padding-left: 15px;}
+
+/*----FORM----*/
+
+#container3 {background-image: url(../image/Bg.jpg);padding: 28px  0 38px 0;}
+.wrap3 {margin: 0 auto;width: 65%;background-color: #fff;box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.51);border-radius: 5px;padding: 23px 26px 65px; }
+.sign-up {padding: 0 137px;}
+.col1 {width: 48%;margin-right: 2%;float: left;}
+.col1:nth-child(2){margin-right: 0%;}
+
+.register {border-right: 1px solid #d5d5d5;}
+.register legend  {font-size: 24px;line-height: 50px;font-weight: 600;font-family: OpenSans;color:  #2a2a2a;}
+.register .holders-name input:nth-child(1) {
+    width:185px ;
+    height:50px; ;
+    padding:17px 16px ;
+    margin-right: 15px;
+    margin-bottom: 15px; 
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: OpenSans;
+    color:  #a6a6a6;
+    
+}
+.register .holders-name input:nth-child(2) {
+    width:185px ;
+    height:50px; 
+    padding:17px 16px ;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: OpenSans;
+    color:  #a6a6a6;
+}
+.register .email input {
+    width: 388px;
+    height: 50px;
+    padding:17px 16px ;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: OpenSans;
+    color:  #a6a6a6;
+}
+.register .c-email input{
+    width: 388px;
+    height: 50px;
+    padding:17px 16px ;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: OpenSans;
+    color:  #a6a6a6;
+}
+.register .password input{
+    width: 388px;
+    height: 50px;
+    padding:17px 16px ;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: OpenSans;
+    color:  #a6a6a6;
+}
+.register .c-password input{
+    width: 388px;
+    height: 50px;
+    padding:17px 16px ;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: OpenSans;
+    color:  #a6a6a6;
+}
+.register .city{
+    
+}
+.register .submit input[type=checkbox] + label {
+  cursor: pointer;
+  padding: 0.2em;
+
+}
+.register .submit input[type=checkbox] {
+  display: none;
+}
+.register .submit input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 2px solid #2a2a2a;
+  border-radius: 3px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: transparent;
+  transition: .2s;
+}
+
+.register .submit input[type=checkbox]:checked + label:before {
+  background-color:#2a2a2a;
+  border-color: #2a2a2a;
+  color: #fff;
+}
+
+.register .submit label {
+    font-family: OpenSans;
+    color:  #2a2a2a;
+    font-weight: 400;
+}
+
+.register .submit input[type=submit]{
+    margin-left: 150px;
+    width: 100px;
+    height: 55px;
+    border: 2px solid #e52645;
+    background: #e52645;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.register .submit input[type=submit]:hover{
+    background: #e52544; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#e52544,#000000); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#e52544,#000000); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#e52544,#000000); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #e52544, #000000); /*Standard*/
+}
+
+.register .rules{
+    margin-top: 20px;
+}
+.register .rules p:nth-child(1){
+    font-family: OpenSans;
+    color:  #2a2a2a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px
+}
+.register .rules p a{
+    font-family: OpenSans;
+    text-decoration: none;
+    color:  #e3233f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.contract {padding-left: 50px;}
+.contract h2 {
+    font-family: OpenSans;
+    color:  #2a2a2a;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.contract ul {list-style: none;}
+.contract ul li:nth-child(1) a {
+    text-decoration: none;
+    width: 350px;
+    height: 60px;
+    border: 2px solid #4469bc;
+    display: block;
+    background-image: url(../image/facebook.png) ;
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-color:  #4469bc;
+    font-family: OpenSans;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
+}
+.contract ul li:nth-child(2) a {
+    text-decoration: none;
+    width: 350px;
+    height: 60px;
+    border: 2px solid #17c1d1;
+    display: block;
+    background-image: url(../image/twitter.png) ;
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-color:  #17c1d1;
+    font-family: OpenSans;
+    color:  #ffffff;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
+}
+.contract ul li:nth-child(3) {
+    margin-top: 15px;
+    font-family: OpenSans;
+    color:  #2a2a2a;
+    font-size: 15px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 25px;
+}
+.contract ul li:nth-child(3) i {margin-right: 10px;}
+.contract ul li:nth-child(4) i {margin-right: 10px;}
+.contract ul li:nth-child(4) {
+    font-family: OpenSans;
+    color:  #2a2a2a;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+
+
+/*----Footer----*/
+
+
+#FTR {width: 100%;background:#252525;padding-bottom: 156px;}
+.wrap4 {margin: 0 auto; width: 65%;}
+
+.ftr-head { padding-bottom: 10px;}
+.place {float: left;}
+.place li {list-style:none; display: inline-block;padding-right: 38px;}
+.place li span {font-family: OpenSans;color:  #ffc119;font-size: 16px;font-weight: 600;line-height: 47.46px;padding-top: 28px;}
+.place li i {border-radius: 4px;background-color:  #e42442;width: 28px;height: 28px; text-align: center; color: #fff; padding-top: 6px; margin-top: 20px;}
+
+
+.media { float: right; padding-top: 15px;}
+.media li {list-style: none; display: inline-block; margin-left: 8px;}
+.media li a i {text-decoration: none;width: 40px;height: 38px; color: #fff;text-align: center; padding-top: 10px;}
+.media li:nth-child(1) {background-color: #385899;border-radius: 3px;}
+.media li:nth-child(2) {background-color: #42cdf6;border-radius: 3px;}
+
+
+.ftr-nav {margin: 0 auto; border-top: 1px solid #393939;}
+
+.ftr-nav .col {width: 19%; margin-left: 1%; float: left;border-left: 1px solid #393939;}
+.ftr-nav .col a {text-decoration: none;color: #fff;font-family: OpenSans;font-size: 15px;font-weight: 400;line-height: 33px;}
+.ftr-nav .col:nth-child(1){margin-left: 0; border-left: 0; }
+.ftr-nav .col:nth-child(5) {border-left: 0;}
+
+.ftr-nav .box-1 {padding-top: 35px; }
+.ftr-nav .box-2 {padding-top: 35px;padding-left: 38px; padding-bottom: 62px; }
+.ftr-nav .box-3 {padding-top: 35px;padding-left: 38px;padding-bottom: 62px; }
+.ftr-nav .box-4 {padding-top: 35px;padding-left: 38px;padding-bottom: 62px; }
+.ftr-nav .box-5 {padding-top: 35px; }
+
+
+
+.ftr-nav .box-5 .ster {
+    padding: 17px 0;
+    padding-left: 65px;
+    background-color:#393939;
+    width:244px;
+    height:69px; 
+    background-image: url(../image/ster.png); 
+    background-repeat: no-repeat; 
+    background-position: 17px 16px;
+}
+.ftr-nav .box-5 .ster span {font-family: OpenSans;color:#ffffff;font-size: 15px;font-weight: 700;}
+.ftr-nav .box-5 .ster p a {font-family: OpenSans;color: #bfbfbf;font-size: 13px;font-weight: 400;}
+
+
+.ftr-nav .box-5 .mobile {
+    margin: 11px 0;
+    padding: 17px 0;
+    padding-left: 65px;
+    background-color:#393939;
+    width:244px;
+    height:69px; 
+    background-image: url(../image/mobile.png); 
+    background-repeat: no-repeat; 
+    background-position: 17px 16px;
+}
+.ftr-nav .box-5 .mobile span {font-family: OpenSans;color:#ffffff;font-size: 15px;font-weight: 700;}
+.ftr-nav .box-5 .mobile p a {font-family: OpenSans;color: #bfbfbf;font-size: 13px;font-weight: 400;}
+
+.ftr-nav .box-5 .chat {
+    padding: 17px 0;
+    padding-left: 65px;
+    background-color:#393939;
+    width:244px;
+    height:69px; 
+    background-image: url(../image/chat.png); 
+    background-repeat: no-repeat; 
+    background-position: 17px 16px;
+}
+.ftr-nav .box-5 .chat span {font-family: OpenSans;color:#ffffff;font-size: 15px;font-weight: 700;}
+.ftr-nav .box-5 .chat p a {font-family: OpenSans;color: #bfbfbf;font-size: 13px;font-weight: 400;}
+
+
+.cartifi span {font-family: OpenSans;color:#888787;font-size: 15px;font-weight: 400;line-height: 47.46px;}
+
+
+

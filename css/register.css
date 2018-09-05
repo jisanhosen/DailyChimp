@@ -1,0 +1,263 @@
+*{box-sizing:border-box; padding:0; margin:0}
+.clr{clear:both}
+
+/*===CONTAINAR-1===*/
+
+.containar{max-width:100%; background:#fff}
+.wrap{max-width:65%; margin:0 auto}
+.top-hdr{width:100%}
+.fst-ul{float:left; padding-left:100px}
+.fst-ul li{list-style:none; display:inline-block; color:#d0cdcc}
+.fst-ul li a{
+    padding-left:18px;
+    padding-right:18px;
+    color:#2a2a2a;
+    font-size:17px;
+    line-height:63px;
+    font-weight:700;
+    position:relative;
+    z-index:100;
+    text-decoration:none
+}
+.fst-ul li a:hover{color:#e42442}
+
+.scond-ul{float:right}
+.scond-ul li{list-style:none; display:inline-block; color:#d0cdcc}
+.scond-ul li a{
+    padding-left:18px;
+    padding-right:18px;
+    color:#2a2a2a;
+    font-size:17px;
+    line-height:63px;
+    text-decoration:none
+}
+.scond-ul .last-child{padding-right:0px; color:#e42442; font-weight:700}
+
+
+/*===CONTAINAR-2===*/
+
+.containar2{max-width:100%; background:#de1d36}
+.wrap2{max-width:65%; margin:0 auto; position:relative}
+.hdr{width:100%}
+.logo{position:absolute; left:0; top:-39px}
+.srch-bar{float:right; line-height:72px; overflow:hidden;}
+.srch-bar input{
+    width:336px;
+    padding: 12px 20px 12px 50px;
+    height: 48px; 
+    background-image: url(../image/register/banana.png) ; 
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-radius: 3px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+    border:none
+}
+.srch-bar a{
+    width:18px;
+    height:17px;
+    padding-left:15px;
+    line-height:72px;
+}
+
+/*===CONTAINAR-3===*/
+
+.containar3{max-width:100%; padding:30px 0; background: url(../image/main-bg.jpg)}
+.wrap3{max-width:65%; margin:0 auto; background:#fff; box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, .7); border-radius:5px}
+.message{padding:28px 27px 0 23px}
+.success{background:#e7fdbd; box-shadow: 0px 0px 1px 0px rgba(0, 255, 0, .51); border-radius:3px}
+.success img{padding:11px 13px 11px 11px; float:left}
+.success p{float:left; font-size:15px; line-height:46px; color:#70b100}
+
+.error{margin-top:7px; background:#ffe1e1; box-shadow: 0px 0px 1px 0px rgba(255, 0, 0, .7); border-radius:3px}
+.error img{padding:11px 13px 11px 11px; float:left}
+.error p{float:left; font-size:15px; line-height:46px; color:#df1e37}
+
+/*===REGISTER===*/
+
+.register{width:70%; margin:0 auto; padding:30px 0 62px 0}
+
+/*===FORM===*/
+
+.form{width:52%; padding:0 30px 0 0; float:left; border-right:1px solid#d5d5d5} 
+.form h4{font-size:18px; color:#2a2a2a}
+
+.form .Name{padding-top:18px}
+.form .Name input{width:48%; height:48px; padding-left:17px; font-size:15px; color:#a6a6a6; border-radius:3px; border:1px solid#d5d5d5}
+.form .Name .F-Name{float:left}
+.form .Name .L-Name{float:right}
+
+.form .Email{padding-top:14px}
+.form .Email input{width:100%; height:48px; padding-left:17px; font-size:15px; color:#a6a6a6; border-radius:3px; border:1px solid#d5d5d5}
+
+.form .C-Email{padding-top:14px}
+.form .C-Email input{width:100%; height:48px; padding-left:17px; font-size:15px; color:#a6a6a6; border-radius:3px; border:1px solid#d5d5d5}
+
+.form .Password{padding-top:14px}
+.form .Password input{width:100%; height:48px; padding-left:17px; font-size:15px; color:#a6a6a6; border-radius:3px; border:1px solid#d5d5d5}
+
+.form .C-Password{padding-top:14px}
+.form .C-Password input{width:100%; height:48px; padding-left:17px; font-size:15px; color:#a6a6a6; border-radius:3px; border:1px solid#d5d5d5}
+
+.form h3{padding-top:23px; font-size:18px; line-height:19px; color:#e52544}
+
+.form select{width:100%; height:48px; margin-top:15px; padding-left:17px; font-size:15px; color:#2a2a2a; border-radius:3px; border:1px solid#d5d5d5}
+
+.form .submit{padding-top:20px}
+.form .submit input{width:22px; height:22px; margin-top:15px; float:left; border-radius:3px; background-color:#2a2a2a; color:#fff}
+.form .submit p{padding-left:9px; font-size:15px; line-height:48px; float:left}
+.form .submit a{
+    width:96px;
+    height:48px;
+    float:right;
+    font-size:16px;
+    background:#e52645;
+    border-radius:3px;
+    text-decoration:none;
+    color:#fff;
+    text-align:center;
+    line-height:48px;
+    font-weight:600
+}
+.Rules{padding-top:23px}
+.Rules p{font-size:15px; line-height:20px; color:#2a2a2a}
+.Rules a{text-decoration:none; color:#e3233f}
+
+/*===SOCIAL===*/
+
+.social{width:48%; padding-left:52px; float:left}
+.social h3{font-size:18px; line-height:19px; color:#2a2a2a; font-weight:600}
+.social ul{list-style:none; padding-top:20px}
+.social ul li:nth-child(1) a{
+    width:100%;
+    height:48px;
+    display:block;
+    text-decoration:none;
+    border:2px solid#486cbe;
+    background-image: url(../image/register/facebook.png);
+    background-repeat:no-repeat;
+    background-position:15px 11px;
+    background-color:#486cbe;
+    color:#fff;
+    border-radius:3px;
+    text-align:center;
+    font-size:18px;
+    line-height:48px;
+    font-weight:600
+}
+.social ul li:nth-child(2) a{
+    width:100%;
+    height:48px;
+    margin-top:8px;
+    display:block;
+    text-decoration:none;
+    border:2px solid#1ec8d7;
+    background-image: url(../image/register/twitter.png);
+    background-repeat:no-repeat;
+    background-position:15px 11px;
+    background-color:#1ec8d7;
+    color:#fff;
+    border-radius:3px;
+    text-align:center;
+    font-size:18px;
+    line-height:48px;
+    font-weight:600
+}
+.social ul li:nth-child(3){margin-top:25px; font-size:15px; line-height:24px; color:#2a2a2a}
+.social ul li:nth-child(4){font-size:15px; line-height:24px; color:#2a2a2a}
+.social ul li:nth-child(3) i{margin-right:14px}
+.social ul li:nth-child(4) i{margin-right:14px}
+
+/*===FOOTER===*/
+
+.ftr{width:100%; background:url(../image/ftr-bg.png)}
+.wrap4{width:65%; margin: 0 auto}
+.ftr-hdr{padding-bottom:14px}
+.ftr-hdr .city{float:left; padding-top:22px}
+.ftr-hdr .city li{padding-right:14px; display:inline-block; list-style:none; line-height:28px}
+.ftr-hdr .city li span{font-size:18px; color:#ffc119; font-weight:500}
+.ftr-hdr .city li a{width:28px; height:28px; display:block; background:#e42442; color:#fff; border-radius:3px; text-align:center;}
+
+
+.ftr-hdr .media{float:right; padding-top:13px}
+.ftr-hdr .media li{padding-left:8px; display:inline-block; list-style:none}
+.ftr-hdr .media li:nth-child(1) a{
+    width:38px;
+    height:38px;
+    display:block;
+    background:#3b5998;
+    color:#fff;
+    line-height:38px;
+    border-radius:3px;
+    text-align:center
+}
+.ftr-hdr .media li:nth-child(2) a{
+    width:38px;
+    height:38px;
+    display:block;
+    background:#44ccf6;
+    color:#fff;
+    line-height:38px;
+    border-radius:3px;
+    text-align:center
+}
+
+.details{padding-bottom:13px; border-top:1px solid#393939}
+.details .col{float:left; padding-top: 30px; border-left:1px solid#393939}
+.details .col p a{text-decoration:none; font-size:15px; line-height:32px; color:#fff}
+.details .box-1{width:17%; border:none}
+.details .box-2{width:18.5%; padding-left:44px; padding-bottom:60px}
+.details .box-3{width:18.5%; padding-left:42px; padding-bottom:60px}
+.details .box-4{width:21%; padding-left:42px; padding-bottom:28px}
+.details .box-5{width:25%; border:none}
+
+.details .box-5 .star{
+    width:100%;
+    padding-left:65px;
+    display:block;
+    border-radius:3px;
+    background-image:url(../image/ster.png);
+    background-repeat:no-repeat;
+    background-position:13px 17px;
+    background-color:#393939;
+    
+}
+.details .box-5 .star h3{padding-top:20px; font-size:15px; line-height:16px; font-weight:600; color:#fff}
+.details .box-5 .star a{padding-bottom:20px; text-decoration:none; font-size:13px; line-height:14px; color:#bfbfbf}
+.details .box-5 .star a i{margin:0 0 17px 5px; color:#fff}
+
+.details .box-5 .phone{
+    width:100%;
+    padding-left:65px;
+    margin-top:10px;
+    display:block;
+    border-radius:3px;
+    background-image:url(../image/mobile.png);
+    background-repeat:no-repeat;
+    background-position:20px 15px;
+    background-color:#393939;
+    
+}
+.details .box-5 .phone h3{padding-top:20px; font-size:15px; line-height:16px; font-weight:600; color:#fff}
+.details .box-5 .phone a{padding-bottom:20px; text-decoration:none; font-size:13px; line-height:14px; color:#bfbfbf}
+.details .box-5 .phone a i{margin:0 0 17px 5px; color:#fff}
+
+.details .box-5 .chat{
+    width:100%;
+    padding-left:65px;
+    margin-top:10px;
+    display:block;
+    border-radius:3px;
+    background-image:url(../image/chat.png);
+    background-repeat:no-repeat;
+    background-position:15px 20px;
+    background-color:#393939;
+    
+}
+.details .box-5 .chat h3{padding-top:20px; font-size:15px; line-height:16px; font-weight:600; color:#fff}
+.details .box-5 .chat a{padding-bottom:20px; text-decoration:none; font-size:13px; line-height:14px; color:#bfbfbf}
+.details .box-5 .chat a i{margin:0 0 17px 5px; color:#fff}
+
+.copy-right p{padding-bottom:158px; font-size:15px; line-height:16px; color:#888787}
